@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ch_dji" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ch_dji" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="../../opencv-3.3.0/include" />
+					<Add directory="../../opencv-3.3.0/include/opencv" />
+					<Add directory="../../opencv-3.3.0/include/opencv2" />
+				</Compiler>
+				<Linker>
+					<Add option="-ldcam" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_calib3d.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_calib3d_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_core.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_core_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_dnn.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_dnn_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_features2d.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_features2d_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_flann.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_flann_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_highgui.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_highgui_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_imgcodecs.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_imgcodecs_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_imgproc.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_imgproc_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_ml.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_ml_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_objdetect.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_objdetect_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_perf_calib3d_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_perf_core_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_perf_dnn_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_perf_features2d_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_perf_imgcodecs_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_perf_imgproc_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_perf_objdetect_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_perf_photo_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_perf_stitching_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_perf_superres_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_perf_videoio_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_perf_video_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_photo.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_photo_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_shape.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_shape_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_stitching.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_stitching_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_superres.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_superres_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_calib3d_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_core_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_dnn_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_features2d_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_flann_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_highgui_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_imgcodecs_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_imgproc_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_ml_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_objdetect_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_photo_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_shape_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_stitching_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_superres_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_videoio_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_video_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_test_videostab_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_ts.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_ts_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_video.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_videoio.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_videoio_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_video_pch_dephelp.a" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_videostab.so" />
+					<Add library="../../opencv-3.3.0/build/lib/libopencv_videostab_pch_dephelp.a" />
+					<Add directory="../../opencv-3.3.0/build/bin" />
+					<Add directory="../../opencv-3.3.0/build/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ch_dji" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-s" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`opencv-config --cxxflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="`opencv-config --ldstaticflags`" />
+		</Linker>
+		<Unit filename="djicam.h" />
+		<Unit filename="lena.jpg" />
+		<Unit filename="main.cpp" />
+		<Unit filename="manifold_cam/djicam.h" />
+		<Unit filename="manifold_cam/test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

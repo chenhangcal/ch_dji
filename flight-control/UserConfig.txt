@@ -1,0 +1,4 @@
+app_id : 1044996
+app_key : 9f99bc7fe0c4e0ea278e9372e6b2e1846a6f3d91669a07a960b2f8638be26930
+device : /dev/ttyTHS0
+baudrate : 230400
